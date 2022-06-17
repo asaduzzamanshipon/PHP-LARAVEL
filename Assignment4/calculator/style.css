@@ -1,0 +1,29 @@
+#calculator {
+    height: 300px;
+    width: 280px;
+    padding: 25px;
+    margin-top: 7%;
+    margin-left: 30%;
+    margin-right: 30%;
+    border: 2px solid;
+    box-shadow: 10px 15px #888888;
+}
+#number{
+    font-size: 22px;
+}
+#number1{
+    font-size: 22px;
+}
+#number2{
+    font-size: 22px;
+}
+#name {
+    font-size: 22px;
+    width: 275px;
+}
+#button{
+    font-size: 22px;
+    width: 275px;
+    background-color: blue;
+    color: white;
+}

@@ -1,0 +1,31 @@
+#cv{
+   margin-left: 15%;
+   margin-right: 15%;
+   margin-top: 2%;
+   margin-bottom: 2%;
+   background-color: #f0f3f7
+   
+}
+#all{
+    background-color: white;
+    padding: 5%;
+    font-size: 19px;
+}
+#image{
+    height: 260px;
+    width: 210px;
+    text-align: right;
+}
+.education{
+    width:100%
+}
+.education, th{
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 12px;
+}
+.education_td{
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 8px;
+}

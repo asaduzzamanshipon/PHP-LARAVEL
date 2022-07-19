@@ -11,11 +11,10 @@
 #number{
     font-size: 22px;
 }
-#number1{
+#grade_point{
     font-size: 22px;
-}
-#number2{
-    font-size: 22px;
+    height: 28px;
+    width: 265px;
 }
 #name {
     font-size: 22px;
@@ -31,7 +30,6 @@
 #total{
     font-size: 22px;
     width: 275px;
-    background-color: rgb(0, 255, 221);
     color: rgb(0, 0, 0);
     padding: 3px;
 }

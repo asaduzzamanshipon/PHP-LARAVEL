@@ -3,7 +3,9 @@
 use Illuminate\Support\Facades\Route;
   
 use App\Http\Controllers\Auth\AuthController;
+use App\Http\Controllers\ContactsController;
 use App\Http\Controllers\HomeController;
+use App\Http\Controllers\WelcomeController;
 
 /*
 |--------------------------------------------------------------------------
@@ -23,9 +25,13 @@ Route::post('post-registration', [AuthController::class, 'postRegistration'])->n
 Route::get('dashboard', [AuthController::class, 'dashboard']); 
 Route::get('logout', [AuthController::class, 'logout'])->name('logout');
 
-
+Route::get('/', [WelcomeController::class, 'index']);
 Route::get('home', [HomeController::class, 'index']);
-Route::resource('contacts', 'ContactsController');
+Route::get('contacts', [ContactsController::class, 'show']);
+Route::get('contacts/create', [ContactsController::class, 'create']);
+
+
+// Route::resource('contacts', 'ContactsController');
 
 Route::resource('groups', 'GroupsController');
 
